@@ -1,0 +1,95 @@
+body {
+  background-color: black; 
+}
+
+.Container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+}
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Perfil {
+  width: 350px; 
+  height: fit-content;
+  justify-content: center;
+  padding: 30px;
+  background-color: var(--DarkGrey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5%;
+  margin: 10px; 
+}
+
+.Imagen {
+  display: flex;
+  padding: 10px;
+}
+
+.Imagen img {
+  width: 50%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.profile-pic {
+  width: 10%;
+  height: 10%;
+  object-fit: cover;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --DarkGrey: hsl(0, 0%, 12%);
+  --OffBlack: hsl(0, 0%, 8%);
+  --Green: hsl(75, 94%, 57%);
+}
+
+.Name, .lugar, .Ocupacion {
+  height: 30px;
+  font-size: 14px;
+  font-family: "inter", sans-serif;
+  color: var(--White); 
+}
+
+.lugar {
+  color: var(--Green); 
+}
+
+.Ocupacion {
+  font-size: 11px;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 15px; 
+  margin: 8px; 
+  background-color: var(--Grey); 
+  color: var(--White); 
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: var(--Green); 
+  color: var(--Grey); 
+}
+
+#btnAñadirTarjeta {
+  display: block;
+  margin: 0 auto;
+}
+
