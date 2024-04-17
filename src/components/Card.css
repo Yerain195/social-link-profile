@@ -1,0 +1,17 @@
+.CardContainer {
+    margin: 10px auto; 
+    background-color: var(--DarkGrey); 
+    border-radius: 8px; 
+    border: 2px solid white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    width: 250px; 
+    
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+  
+.CardContainer > * {
+    width: 100%; 
+}
+  
