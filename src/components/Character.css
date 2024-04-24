@@ -1,0 +1,125 @@
+.character-card {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black; 
+    width: 35rem; 
+    height: 55rem; 
+    border-radius: 1rem;
+    border: 2px solid white; 
+    overflow: hidden; 
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    height: 50%; 
+    width: 100%;
+    overflow: hidden;
+}
+
+.character-avatar {
+    height: 50%; 
+    width: 50%; 
+    object-fit: cover; 
+}
+
+.character-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: white; 
+}
+
+.status-dot {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+
+.status-alive {
+    background-color: green; 
+    border-color: green;
+}
+
+.status-dead {
+    background-color: red;
+    border-color: red;
+}
+
+.status-unknown {
+    background-color: grey;
+    border-color: grey;
+}
+
+.character-name {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 600; 
+    color: white; 
+}
+
+.card-secondary {
+    height: 40%; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    overflow: hidden; 
+}
+
+.episode-title {
+    padding-left: 2rem; 
+    text-align: start;
+    font-weight: bold;
+    font-size: 1.3rem; 
+    color: white; 
+}
+
+.episode-list {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center; 
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.episode-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    width: 9rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    text-align: center;
+    padding: 1rem;
+}
+
+.episode-item p {
+    color: white; 
+    font-size: 0.9rem; 
+}
+
+.button-home {
+    width: 15rem;
+    background-color: grey; 
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 1.1rem;
+}
+
+.button-home:hover {
+    background-color: rgb(77, 77, 77); 
+    color: white; 
+    cursor: pointer; 
+}
+
+  

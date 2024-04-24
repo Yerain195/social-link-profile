@@ -1,15 +1,17 @@
 import React from "react";
 import UserDetails from "./UserDetails";
 import "./Card.css";
+import { NavLink } from "react-router-dom";
 
-function Card(props) {
-  const character = props.character;
-
+const Card = ({ character }) => {
+  console.log(character);
   return (
-    <div className="CardContainer">
-      <UserDetails character={character} />
-    </div>
+    <NavLink to={`/character?id=${character.id}`}>
+      <div className="card">
+        <UserDetails character={character} />
+      </div>
+    </NavLink>
   );
-}
+};
 
 export default Card;

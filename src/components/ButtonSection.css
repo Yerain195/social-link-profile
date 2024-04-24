@@ -1,34 +1,36 @@
-.ButtonSectionContainer .ButtonContainer { 
-    margin-top: 5px;   
-    height: 265px;
+.button-section {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    align-content: center;
     justify-content: space-around;
-}
+    align-items: center; 
+    padding: 10px; 
+    background-color: #f0f0f0; 
+    border-radius: 8px;
+    margin: 20px; 
+  }
 
-.ButtonSectionContainer .ButtonContainer button {
-    width: 255px;
-    height: 40px;
-    font-family: inherit;
-    font-weight: 700;
-    border: 1px solid var(--Grey);
-    background: var(--Grey);
-    color: var(--White);
-    font-size: small;
-    border-radius: 6px;
-    transition: background-color 1s;
-}
+  .social-button {
+    background-color: #ffffff; 
+    border: 1px solid #ddd;
+    border-radius: 6px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
 
-.ButtonSectionContainer .ButtonContainer button:hover {
-    background-color: var(--Green);
-    color: var(--OffBlack);
-}
+  .social-button:hover {
+    background-color: #e0e0e0; 
+  }
 
-.inter-Negrilla {
-    font-family: "InterNegrilla", sans-serif;
-    font-optical-sizing: auto;
+  .icon {
+    height: 20px; 
+    margin-right: 8px;
+  }
+
+  .no-links {
+    color: red; 
+    text-align: center; 
     font-weight: bold; 
-    font-variation-settings: "slnt" 0;
-}
+    padding: 10px; 
+  }
+  
