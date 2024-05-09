@@ -48,3 +48,4 @@ const RickAndMortyApp = () => {
 };
 
 export default RickAndMortyApp;
+
